@@ -1,57 +1,54 @@
 # Tattoo Master for inZOI
 
-**Tattoo Master** es un addon de Blender diseñado para automatizar el flujo de trabajo de aplicación de tatuajes de alta calidad en mallas de MetaHuman (cuerpo y cabeza) para inZOI. Utiliza el modo de pintura de texturas con *Stencil* (plantilla) y asegura la compatibilidad con la exportación a Unreal Engine 5.
+**Tattoo Master** is a Blender addon designed to automate the workflow of applying high-quality tattoos on MetaHuman meshes (body and head) for inZOI. It uses texture painting mode with *Stencil* and ensures compatibility with Unreal Engine 5 export.
 
-## Instalación
+## Installation
 
-1. Descarga este repositorio como un archivo ZIP (Code > Download ZIP).
-2. Abre Blender (Versión 4.0 o superior recomendada).
-3. Ve a **Edit > Preferences** (Editar > Preferencias).
-4. Selecciona la pestaña **Add-ons**.
-5. Haz clic en **Install...** y selecciona el archivo ZIP descargado.
-6. Activa el addon buscando **"3D View: Tattoo Master inZOI"**.
+1. Download this repository as a ZIP file (Code > Download ZIP).
+2. Open Blender (Version 4.0 or higher recommended).
+3. Go to **Edit > Preferences**.
+4. Select the **Add-ons** tab.
+5. Click **Install...** and select the downloaded ZIP file.
+6. Activate the addon by searching for **"3D View: Tattoo Master inZOI"**.
 
-## Configuración
+## Configuration
 
-Una vez activado, despliega las preferencias del addon en la lista de addons (o en el panel lateral):
+Once activated, expand the addon preferences in the addons list (or in the side panel):
 
-1. Ve a la sección **Default Paths** y configura tus carpetas de trabajo:
-   - **Default Tattoo Path**: Carpeta donde guardas tus imágenes/diseños de tatuajes.
-   - **Default Skin Path**: Carpeta con las texturas base de la piel.
-   - **Default FBX Path**: Carpeta donde tienes tus modelos FBX de inZOI.
-   - **Default Export Path**: Carpeta donde se guardarán las texturas exportadas.
+1. Go to the **Default Paths** section and configure your working folders:
+   - **Default Tattoo Path**: Folder where you keep your tattoo images/designs.
+   - **Default Skin Path**: Folder with base skin textures.
+   - **Default FBX Path**: Folder where you have your inZOI FBX models.
+   - **Default Export Path**: Folder where exported textures will be saved.
 
-> **Nota:** Estas configuraciones se guardan localmente en tu equipo y no se sobrescribirán al actualizar el addon.
+> **Note:** These settings are saved locally on your machine and will not be overwritten when updating the addon.
 
-## Uso Rápido
+## Quick Usage
 
-El panel principal se encuentra en la **Barra Lateral de la Vista 3D** (Presiona `N` para mostrarla) bajo la pestaña **inZOI Tattoo Studio**.
+The main panel is located in the **3D View Sidebar** (Press `N` to show it) under the **inZOI Tattoo Studio** tab.
 
-### Flujo de trabajo:
+### Workflow:
 
-1. **Import inZOI FBX**: Carga tu modelo FBX de inZOI.
-2. **Load/Replace Skin Texture**: Carga la textura de piel base (se redimensiona a 4K automáticamente para mejor calidad).
-3. **Texture Paint Mode**: Cambia automáticamente al modo de pintura y configura la vista.
-4. **Load Tattoo Image**: Carga tu imagen de tatuaje. Esto configurará el pincel en modo *Stencil*.
-   - Usa `Click Derecho` para mover el stencil.
-   - Usa `Shift + Click Derecho` para escalar.
-   - Usa `Ctrl + Click Derecho` para rotar.
-5. **Pinta** sobre el modelo donde desees el tatuaje.
+1. **Import inZOI FBX**: Load your inZOI FBX model.
+2. **Load/Replace Skin Texture**: Load the base skin texture (automatically resized to 4K for better quality).
+3. **Texture Paint Mode**: Automatically switches to paint mode and sets up the view.
+4. **Load Tattoo Image**: Load your tattoo image. This will set up the brush in *Stencil* mode.
+   - Use `Right Click` to move the stencil.
+   - Use `Shift + Right Click` to scale.
+   - Use `Ctrl + Right Click` to rotate.
+5. **Paint** on the model where you want the tattoo.
 6. **Export**:
-   - **Export Tattooed Texture**: Guarda solo la textura de color resultante (PNG/TGA).
-   - **Export USD (UE5)**: Exporta el modelo y texturas en formato USD compatible con Unreal Engine 5.
+   - **Export Tattooed Texture**: Saves only the resulting color texture (PNG/TGA).
+   - **Export USD (UE5)**: Exports the model and textures in USD format compatible with Unreal Engine 5.
 
-## Características
+## Features
 
-- Importación optimizada de FBX de inZOI.
-- Configuración automática de materiales y UVs.
-- Sistema de pincel Stencil automatizado.
-- Redimensionado automático de texturas a 4K.
-- Exportación directa a formatos compatibles con UE5.
+- Optimized inZOI FBX import.
+- Automatic material and UV setup.
+- Automated Stencil brush system.
+- Automatic texture resizing to 4K.
+- Direct export to UE5 compatible formats.
 
-## Créditos
+## Credits
 
-## Créditos
-
-Desarrollado por TRESDTRES.
-
+Developed by TRESDTRES.
