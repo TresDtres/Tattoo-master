@@ -51,4 +51,7 @@ El panel principal se encuentra en la **Barra Lateral de la Vista 3D** (Presiona
 
 ## Créditos
 
-Desarrollado por TRESDTRES.# Tattoo-master
+## Créditos
+
+Desarrollado por TRESDTRES.
+
